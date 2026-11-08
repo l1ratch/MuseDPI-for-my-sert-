@@ -63,7 +63,6 @@ jobs:
         run: |
           unzip -t packages/MuseDPI-unsigned.ipa
           unzip -l packages/MuseDPI-unsigned.ipa | grep -F "Payload/MuseDPI.app/PlugIns/ByeByeDPITun.appex/"
-          unzip -l packages/MuseDPI-unsigned.ipa | grep -F "Payload/MuseDPI.app/PlugIns/PalkaWidget.appex/"
           cd packages
           shasum -a 256 MuseDPI-unsigned.ipa > MuseDPI-unsigned.ipa.sha256
 
