@@ -1525,7 +1525,7 @@
 				);
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).widget";
 				PRODUCT_NAME = PalkaWidget;
 				SDKROOT = iphoneos;
@@ -1556,7 +1556,7 @@
 				);
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).widget";
 				PRODUCT_NAME = PalkaWidget;
 				SDKROOT = iphoneos;
@@ -1604,7 +1604,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = ByeByeDPI;
 				PRODUCT_NAME = ByeByeDPI;
@@ -1657,7 +1657,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = ByeByeDPI;
 				PRODUCT_NAME = ByeByeDPI;
@@ -2303,7 +2303,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).tun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2344,7 +2344,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
 				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
-				PALKA_BUNDLE_ID = app.yam53.taro5888;
+				PALKA_BUNDLE_ID = app.yam53.taro5888.musedpi;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).tun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
