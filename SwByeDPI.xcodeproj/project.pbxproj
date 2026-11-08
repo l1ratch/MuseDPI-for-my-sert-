@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0D30000000000000000000A /* PalkaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C0D300000000000000000001 /* PalkaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8B09F8692F7A672E0065FB4D /* ByeByeDPITun.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8BB4205C2F73FEE6005C2F2B /* ByeByeDPITun.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8B2BF7B92F4DFB9D0016A26B /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 8B2BF7B82F4DFB9D0016A26B /* RswiftLibrary */; };
 		8B3AF57C2F6DCEDE0085E8BC /* SwByeDPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD891882F3A1A750020D925 /* SwByeDPI.framework */; };
@@ -169,7 +168,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				8B09F8692F7A672E0065FB4D /* ByeByeDPITun.appex in Embed Foundation Extensions */,
-				C0D30000000000000000000A /* PalkaWidget.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -923,7 +921,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				C0D30000000000000000000B /* PBXTargetDependency */,
 				8B52DB1F2F62A683009BE7C3 /* PBXTargetDependency */,
 				8BBA638E2F6835F40092E52A /* PBXTargetDependency */,
 				8B09F86B2F7A672E0065FB4D /* PBXTargetDependency */,
@@ -1516,7 +1513,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Example/Sources/PalkaWidget/Info.plist;
@@ -1527,8 +1524,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).widget";
 				PRODUCT_NAME = PalkaWidget;
 				SDKROOT = iphoneos;
@@ -1547,7 +1544,7 @@
 				CODE_SIGN_ENTITLEMENTS = Example/Sources/PalkaWidget/PalkaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Example/Sources/PalkaWidget/Info.plist;
@@ -1558,8 +1555,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).widget";
 				PRODUCT_NAME = PalkaWidget;
 				SDKROOT = iphoneos;
@@ -1582,7 +1579,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_ASSET_PATHS = Example/Sources/ByeByeDPI/PreviewContent/PreviewAssets.xcassets;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/ByeDPIC/include";
@@ -1606,8 +1603,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = ByeByeDPI;
 				PRODUCT_NAME = ByeByeDPI;
@@ -1635,7 +1632,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_ASSET_PATHS = Example/Sources/ByeByeDPI/PreviewContent/PreviewAssets.xcassets;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/ByeDPIC/include";
@@ -1659,8 +1656,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = ByeByeDPI;
 				PRODUCT_NAME = ByeByeDPI;
@@ -2290,7 +2287,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				GENERATE_INFOPLIST_FILE = NO;
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/ByeDPIC/include";
 				INFOPLIST_FILE = Example/Sources/ByeByeDPITun/Info.plist;
@@ -2305,8 +2302,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).tun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2331,7 +2328,7 @@
 				CODE_SIGN_ENTITLEMENTS = Example/Sources/ByeByeDPITun/ByeByeDPITun.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 23;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9U945T6L7A;
 				GENERATE_INFOPLIST_FILE = NO;
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/ByeDPIC/include";
 				INFOPLIST_FILE = Example/Sources/ByeByeDPITun/Info.plist;
@@ -2346,8 +2343,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.4.8;
-				PALKA_APP_GROUP = group.dev.local.palkadpi;
-				PALKA_BUNDLE_ID = dev.local.palkadpi;
+				PALKA_APP_GROUP = group.c2fefdd0db2e255e.1;
+				PALKA_BUNDLE_ID = app.yam53.taro5888;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PALKA_BUNDLE_ID).tun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
